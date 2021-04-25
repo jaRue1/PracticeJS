@@ -30,3 +30,6 @@ const nbaRoster = [
   },
 ]
 // add a foreach array method that logs the players team player name and position
+nbaRoster.forEach(player => {
+  console.log(player.playerTeam, player.playerName, player.playerPos) 
+});
