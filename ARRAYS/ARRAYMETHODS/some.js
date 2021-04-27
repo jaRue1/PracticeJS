@@ -1,4 +1,8 @@
-// create an array of 7 cars and return a list of the top 3 fastest cars.
+// The some() method checks if any of the elements in an array pass a test (provided as a function).
+
+// The some() method executes the function once for each element present in the array:
+
+
 const cars = [
   {
     carName: "Lamborghini",
@@ -43,3 +47,31 @@ const cars = [
     age: 2020,
   },
 ]
+
+function fastCars(array) {
+  array.forEach(car => {
+    if(car.hp >= 700){ 
+      console.log(car.carName)
+      console.log(car.price)
+      console.log(car.age)
+    }
+  });
+} 
+function slowCars(array) {
+  array.forEach(car => {
+    if(car.hp <= 700){ 
+      console.log(car.carName)
+      console.log(car.price)
+      console.log(car.age)
+    }
+  });
+} 
+
+console.log('------------FAST CARS ! --------------')
+fastCars(cars)
+console.log('-------------------------------------')
+console.log('------------SLOW CARS ! --------------')
+slowCars(cars)
+console.log('-------------------------------------')
+
+
