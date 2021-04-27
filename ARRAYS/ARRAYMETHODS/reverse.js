@@ -30,5 +30,10 @@
 ]
 nbaRoster.reverse() // reverses the order of the array
 nbaRoster.forEach(player => {
-  console.log(player.playerTeam, player.playerName, player.playerPos) 
+  console.log(player.playerName) 
 });
+// Output
+// Damian Lilard
+// Paul George
+// Kevin Durant
+// Lebron James
