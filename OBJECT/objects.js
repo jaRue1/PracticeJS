@@ -4,4 +4,4 @@ let person = {
   tall: true
 }
 // destructing the object (do this)
-let { firstName, age, tall } = person
+let { firstName, age, tall } = vibe
