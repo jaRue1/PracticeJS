@@ -1,6 +1,5 @@
 function shuffle(array) {
-  var copy = [], 
-  n = array.length, i;
+  var copy = [], n = array.length, i;
 
   // While there remain elements to shuffle…
   while (n) {
