@@ -1,6 +1,7 @@
 // The slice() method returns the selected elements in an array, as a new array object.
 
-// The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+// The slice() method selects the elements starting at the given start argument, 
+// and ends at, but does not include, the given end argument.
 
 
 const cars = [
