@@ -3,15 +3,15 @@ const faker = require("faker");
 const { fa } = require("faker/lib/locales");
 // testing the library
 
-// let firstName = faker.name.firstName();
-// let lastName = faker.name.lastName();
-// let jobTitle = faker.name.jobTitle();
-// let phoneNumber = faker.phone.phoneNumber();
+let fName = faker.name.firstName();
+let lName = faker.name.lastName();
+let jTitle = faker.name.jobTitle();
+let pNumber = faker.phone.phoneNumber();
 
-// console.log("First Name: " + firstName);
-// console.log("Last Name: " + lastName);
-// console.log("Job Title: " + jobTitle);
-// console.log("Phone Number: " + phoneNumber);
+console.log("First Name: " + fName);
+console.log("Last Name: " + lName);
+console.log("Job Title: " + jTitle);
+console.log("Phone Number: " + pNumber);
 
 // Lets make some fake users
 
