@@ -63,3 +63,21 @@ let chosenFakeUsers = Obj.filter((user) => {
 });
 console.log("The Chosen 15");
 console.log(chosenFakeUsers);
+
+// coming soon
+
+// forEach()
+
+// slice()
+
+// sort()
+
+// shift
+
+// unshift()
+
+// push()
+
+// pop()
+
+// reduce()
