@@ -76,7 +76,7 @@ function makeFakeUsers() {
 }
 let users = makeFakeUsers() // this becomes array of 100 objects
 
-// console.log("All Users !!")
+console.log("All Users !!")
 console.log(users)
 
 // array methods
