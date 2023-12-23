@@ -1,7 +1,5 @@
-const s = function (param1, param2) { 
-  result = param1 + param2
-  return result
+const add = (param1, param2) => {
+  return param1 + param2
 }
 
-
-console.log(s(1,2))
+console.log(add(1, 2))
