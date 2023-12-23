@@ -1,7 +1,15 @@
 let person = {
-  firstName: 'Rue',
+  firstName: "Rue",
   age: 23,
-  tall: true
+  tall: true,
 }
 // destructing the object (do this)
-let { firstName, age, tall } = vibe
+let { firstName, age, tall } = person
+
+console.log("hi may name is ", firstName)
+
+console.log("I am ", age, "years old")
+
+if (tall) {
+  console.log("People always joke about the weather with me ")
+}
