@@ -2,13 +2,13 @@
 let age = 23
 
 // create a string
-const address = "1483 Running Oak Lane 33411 Royal Palm Beach Fl"
+const address = "1234 Main Street Lane 11411 Happy Palm Beach CA"
 
 // create a function do something or return something
-function myInfo(x, y){
-let myAge = x 
-let myAddress = y
-console.log("My age is " + myAge + " My address is "+  myAddress)
+function myInfo(x, y) {
+  let myAge = x
+  let myAddress = y
+  console.log("My age is " + myAge + " My address is " + myAddress)
 }
 // this is how i call a function
-myInfo(age,address)
+myInfo(age, address)
