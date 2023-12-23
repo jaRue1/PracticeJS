@@ -1,9 +1,9 @@
 //write an anonymous function
 
-let num1 = 4 // assigned num1 to = the value 4
+let num1 = 4
 let num2 = 7
-const Total = function (x, y) {
-  let result = x + y
-  return result
+
+const total = function (x, y) {
+  return x + y
 }
-console.log(Total(num1, num2))
+console.log(total(num1, num2))
