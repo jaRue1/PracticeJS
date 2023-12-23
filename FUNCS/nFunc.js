@@ -1,12 +1,12 @@
 // Write a function that adds two numbers together
-// Created two variables
+
 let num1 = 5
 let num2 = 6
-// created a function that add values
-function addValue(x,y) {
-  let result = x + y
-  // displayed output
-  console.log("This is a name function add Value " + result)
+
+function addValue(x, y) {
+  return x + y
 }
-// called function
-addValue(num1,num2)
+
+const result = addValue(num1, num2)
+
+console.log("This is a name function add Value " + result)
